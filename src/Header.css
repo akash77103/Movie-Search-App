@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+   height: 100px;
+   align-items: center;
+   background: #6441a5;
+   background: -webkit-repeating-linear-gradient(to right,#2a0845,#6441a5);
+   background: linear-gradient(to right,#2a0845,#6441a5);
+}
+.logo{
+   height: 80%;
+   margin-left: 10%;
+}
+.logo-name {
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 70px;
+}
+.meme{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+.meme > img{
+    width: 90%;
+}
